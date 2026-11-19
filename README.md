@@ -15,7 +15,7 @@ repayment history, bill amounts and payments. About 22% defaulted.
 ## Roadmap
 
 - [x] 0. Project setup
-- [ ] 1. Download and first look at the data
+- [x] 1. Download and first look at the data ([notebook](notebooks/01_first_look.ipynb))
 - [ ] 2. Exploratory data analysis
 - [ ] 3. Cleaning and feature engineering
 - [ ] 4. Baseline model (logistic regression)
@@ -32,6 +32,7 @@ python -m venv .venv
 .venv\Scripts\activate          # Windows  (macOS/Linux: source .venv/bin/activate)
 pip install -r requirements.txt
 pip install -e .
+python -m credit_risk.data      # downloads the dataset to data/raw/
 ```
 
 ## Tech stack
