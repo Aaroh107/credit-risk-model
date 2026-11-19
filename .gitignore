@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Data and models (recreated by scripts, not stored in git)
+data/raw/*
+data/processed/*
+models/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!models/.gitkeep
+
+# Notebooks
+.ipynb_checkpoints/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Tools
+.pytest_cache/
+.ruff_cache/
+mlruns/
